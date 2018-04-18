@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+header{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.LOGO{
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 32px;
+    text-transform: uppercase;
+    color: #555252;
+    position: relative;
+    margin-top: 36px;
+}
+
+.LOGO::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+.LOGO{
+    float: left;
+}
+
+.navigation{
+float: right;
+}
+
+.navigation{
+    margin-top: 43px;
+
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block; 
+    margin: 0px 32px;
+}
+
+.navigation ul li a{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0f0101;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: #1abc9c;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+h1{
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 48px;
+    font-weight: 32px;
+    text-transform: uppercase;
+    color: #515151;
+    margin-top: 110px;   
+    margin-left: 360px;
+   
+    
+}
+
+h1::after{
+    content: "";
+    background: #1abc9c;
+    width: 164px;
+    height: 7px;
+    display: block;
+    bottom: 90px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+    margin-top: 35px; 
+    margin-left: 152px;
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.catalog{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.catalog ul li{
+ float: left;
+ width: 255px;
+ list-style: none;
+ outline: 2px solid #323232;
+}
+
+.catalog ul li:not(:nth-child(4n)){
+    margin-right: 30px;
+}
+
+.catalog ul li:not(:nth-last-child(-n + 4)){
+    margin-bottom: 30px; 
+}
+
+.name{
+    background: #323232;
+    width: 200px;
+    height: 41px;
+    display: block;
+    float: left;
+    margin: 0 auto;
+   }
+
+   .price{
+    background: #8c8c8c;
+    width: 55px;
+    height: 41px;
+    display: block;
+    float: left;
+
+   }
+
+.name{
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+}
+   
+.price{
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center; 
+}
+
+.underimg{
+    margin-top: -4px;
+}
+
+
+.underimg:hover{
+    background: #1abc9c;  
+}
+
+.catalog ul li:hover .name{
+    background: #1abc9c;
+}
+
+.catalog ul li:hover .price{
+    background: #7fd9c7;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h2{
+    
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 48px;
+    font-weight: 32px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #515151;
+    margin-top: 104px;   
+    margin-left: 405px;
+   
+    
+}
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2::after{
+    content: "";
+    background: #1abc9c;
+    width: 165px;
+    height: 7px;
+    display: block;
+    bottom: 80px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+    margin-top: 30px; 
+    margin-left: 82px;
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blog section{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.blog section ul li{
+    float: left;
+    width: 350px;
+    list-style: none;
+ }
+
+ .blog section ul li:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+h3{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 26px;
+    color: #555252;
+}
+h3::after{
+    content: "";
+    background: #1abc9c;
+    width: 136px;
+    height: 4px;
+    display: block;
+    margin: 15px 0 30px;
+
+}
+
+
+p{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 26px;
+    color: #555252;  
+}
+ button{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 26px;
+    text-align: center;
+    background-color: #4ec6ab;
+    color: #ffffff;
+	margin: 20px 0 auto;
+	display: block;
+	height: 50px;
+	width: 160px;
+	text-align: center;
+	border-radius: 15px;
+ }
+
