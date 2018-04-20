@@ -150,6 +150,13 @@ h1::after{
     color: #ffffff;
     text-align: center; 
 }
+.name, .price{
+    line-height: 41px;
+}
+.name{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
 
 .underimg{
     margin-top: -4px;
