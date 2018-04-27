@@ -287,9 +287,65 @@ h1{
 
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .catalog-section .catalog-block:hover .catalog-option-hover{
     display: inline-block;
 }
+
+.catalog-section .catalog-block .button-like,
+.catalog-section .catalog-block .button-random,
+.catalog-section .catalog-block .button-time{
+  display: inline-block;
+  line-height: 1.65;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 5px;
+  font-size: 30px;
+  font-family: "Pe icon 7 stroke";
+}
+
+.catalog-section .catalog-block .button-like:hover,
+.catalog-section .catalog-block .button-random:hover,
+.catalog-section .catalog-block .button-time:hover{
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+}
+
+  .catalog-section .catalog-block .add-to-cart{
+    display: inline-block;
+    position: absolute;
+    width: 173px;
+    height: 50px;
+    margin-top: 5px;
+    left: 28px;
+    top: 55px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    font-size: 30px;
+    font-family: "Pe icon 7 stroke";
+    line-height: 1.65;
+  }
+  
+  .catalog-section .catalog-block .add-to-cart span{
+    color: #fff;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  
+  .catalog-section .catalog-block .add-to-cart:hover{
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+  }
+/*
 
 .catalog-section .catalog-block .kn{
     display: inline-block;
@@ -345,6 +401,7 @@ margin-top: 22px;
 margin-right: 22px;
 
 }
+*/
 
 .clearfix::after{
     content: "";
@@ -353,15 +410,26 @@ margin-right: 22px;
 }
 
 footer{
-    width: 1110px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .br{
-    height: 150px;
+    height: 90px;
     background-color: #323232;
+}
+
+footer .line{
     text-align: center;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 28px;  
+    color: #ffff;
     padding: 35px;
+}
+
+footer span{
+    color: #1abc9c;
 }
 
 
