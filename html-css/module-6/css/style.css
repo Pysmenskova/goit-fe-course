@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
 
 * {
     margin: 0;
@@ -13,7 +17,7 @@ header{
 .logo{
     float: left; 
     margin-top: 26px;
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #95e1d3;
@@ -32,7 +36,7 @@ margin-top: 40px;
 }
 
 .logo1:first-letter{
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #95e1d3;
@@ -42,7 +46,7 @@ margin-top: 40px;
 .navigation .navigation_list .navigation_item{
     list-style: none;
     display: inline-block;
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 14px;
     font-weight: regular;
     margin: 0px 32px; 
@@ -101,7 +105,7 @@ margin-top: 40px;
 
 .service .text1{
     text-align: center;
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Kaushan Script", "Arial", cursive;
     font-size: 24px;
     font-weight: regular;
     color: #333333;
@@ -111,7 +115,7 @@ margin-top: 40px;
 
 .service .text2{
     text-align: center;
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #333333;
@@ -149,7 +153,7 @@ margin-top: 40px;
 }
 
 .sing .sign1{
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 14px;
     font-weight: regular;
     color: #333333;
@@ -160,24 +164,34 @@ margin-top: 40px;
 .sing .sign2{
     font-family:"Roboto", "Arial", sans-serif;
     font-size: 15px;
-    font-weight: 24px;
+    font-weight: regular;
     color: #999999;
     margin-top: 20px;
 }
 
-.our_team .text_text1{
+/*SECTION TEAM*/
+
+.team{
+    width: 100%;
     text-align: center;
-    font-family:"Roboto", "Arial", sans-serif;
+    padding: 40px 0 100px;
+}
+
+/*text*/
+
+.team .text_text1{
+    text-align: center;
+    font-family:"Kaushan Script", "Arial", cursive;
     font-size: 24px;
     font-weight: regular;
     color: #333333;
-    margin-top: 80px;
+ 
 
 }
 
-.our_team .text_text2{
+.team .text_text2{
     text-align: center;
-    font-family:"Roboto", "Arial", sans-serif;
+    font-family:"Montserrat", "Arial", sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #333333;
@@ -185,7 +199,7 @@ margin-top: 40px;
     text-transform: uppercase;
 }
 
-.our_team .text_text2::after{
+.team .text_text2::after{
     content: ""; 
     background: #f38181;
     width: 60px;
@@ -196,233 +210,306 @@ margin-top: 40px;
 
 }
 
-.our_team .text_text3{
+.team .text_text3{
     text-align: center;
     font-family:"Roboto", "Arial", sans-serif;
     font-size: 15px;
-    font-weight: 24px;
+    font-weight: regular;
     color: #999999;
     margin-top: 48px;
 }
 
 
-
-.our_team_section .our_team_section_block:hover img{
-    position: relative;
-    top: -5px;
-    left: -7px;
-    transition-duration: 200ms;
-    
-}
-.our_team_section{
-    display: flex;  
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 95px;
-    position: relative;
-}
-.our_team_section_block{
-    position: relative;
+.team_list{
+   display: flex;  
+   width: 100%; 
+   margin-top: 85px;
+   margin-left: 200px;
 }
 
-
-.our_team_section .our_team_section_block .ander_img{
-    z-index: -1;
-    position: absolute;
-    width: 377px;
-    height: 470px;
-    background: #95e1d3;
-    transform: translateY(-475px);
-}
-
-.our_team_section_block:hover .above_img{
-    position: absolute;
-    background: linear-gradient(rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8));
-    width: 377px;
-    height: 470px;
-    transform: translateY(-475px);
-    margin-top: -5px;
-    margin-left: -6px;
-    transition-duration: 200ms;
-    opacity: 0.8;
-    
-}
-
-
-.our_team_section .our_team_section_block{
-    margin-left: 23px;
-}
-
-.our_team_section-hover{
+.team_list .team_list_block{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 25px;   
 }
 
-.under_block h3{
-    text-align: center;
+.team_list .team_list_photoblock{
+    position: relative;
 }
 
-.under_block p{
-    text-align: center;
+.team_list .team_list_block::before{
+content: "";
+position: absolute;
+width: 380px;
+height: 470px;
+background-color: #95e1d3;
+z-index: -1;
 }
 
-.our_team_section .our_team_section-hover{
-    position: absolute;
-    transform: translate(-50%, -30%);
-    text-align: center;
-    color: #fff;
-    width: 218px;
-    height: 57px;
-    top: 50%;
-    left: 50% 
-}
-.our_team_section-hover{
-    position: absolute;
+.team_list_block .team_list_photoblock::before{
+content: "";
+position: absolute;
+width: 380px;
+height: 470px;
+background: linear-gradient(to top, #eed687, #f08c8a);
+opacity: 0;
+z-index: 1;
+transition: all 0.2s linear;
 }
 
-.cour_team_section .our_team_section-hover .button{
-  display: inline-block;
-  width: 55px;
-  height: 55px;
-  border: 1px solid #e2a081;
-  background-color: #fce38a;
+.team_list_block:hover .team_list_photoblock::before{
+    opacity: 0.9;
+    transform: translate(-10px, -10px);
 }
-
-.cour_team_section .our_team_section-hover .button:hover{
-    background-color: #fce38a;
-}
-.cour_team_section .our_team_section-hover .button_active:hover{
-    background-color: #fce38a;
-}
-
-.cour_team_section .our_team_section_block:hover .our_team_section-hover{
-    display: inline-block;
-}
-
 /*
-.our_team_section-hover .button, .button_active{
-    display: block;
+.team_list_photoblock:hover .photo{
+    transition: all 0.2s linear; 
+}*/
+
+.team_list_block:hover .photo{
+    transform: translate(-10px, -10px);
+    transition: all 0.2s linear;
+}
+
+/*icons*/
+
+.team_list_hover .icon_facebook{
+    position: absolute;
+    opacity: 0;
+    top: 200px;
+    left: 81px;
     width: 55px;
     height: 55px;
-    border: 1px solid #e2a081;
+    border: 1px solid #f38181;
     background-color: #fce38a;
-}
-.our_team_section-hover .button img{
-    margin-top: 12px;
-    margin-left: 12px;
+    z-index: 2;
 }
 
-.our_team_section-hover .button_active img{
-    margin-top: 12px;
-    margin-left: 12px;
-}
-.our_team_section_block{
-    position: relative;
-}
-
-.our_team_section-hover{
+.team_list_hover .icon_twitter{
     position: absolute;
-}
-
-.our_team_section_block img:hover{
-    transition-property: 
-    color: linear-gradient(rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8));
-    transition-duration: 2s;   
-}
-
-/*
-/*.block1:hover img{
-    position: relative;
-    margin-top: -5px;
-}
-.block1 img{
-    width: 380px;
-    height: 470px;
-    transition-duration: 0.2s;  
-}
-.block1 .above img{
-    z-index: 1;
-    position: absolute;
-    background: linear-gradient(rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8));
-    width: 380px;
-    height: 470px;
-    top: -5px;
-    left: 0px;
     opacity: 0;
-    transition-duration: 0.2s;
+    top: 200px;
+    left: 138px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #f38181;
+    background-color: #fce38a;
+    z-index: 2;
 }
 
-.block1 .above img:hover{
-    background: linear-gradient(rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8));
-}
-.block1 .ander img{
+.team_list_hover .icon_pinterest{
     position: absolute;
-    width: 380px;
-    height: 470px;
-    background-color: #95e1d3;
-    z-index: -1;
-    top: 0px;
-    right: 10px;
+    opacity: 0;
+    top: 200px;
+    left: 195px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #f38181;
+    background-color: #fce38a;
+    z-index: 2;
 }
 
-
-
-a.rollover {
-    background: url(images/mark.png); /* Путь к файлу с исходным  рисунком */
-    display: block; /* Рисунок как блочный элемент */
-    width: 151px; /* Ширина рисунка в пикселах */
-    height: 40px; /* Высота рисунка */
-   }
-   a.rollover:hover {
-    background-position: 0 -40px;
-
-
-/*
-transform: translateX(5px), translateY(5px);
-
-.our_team_section-hover{
+.team_list_hover .icon_instagram{
     position: absolute;
-    display: none;
-    transform: translate(-50%, -30%);
-    text-align: center;
-    color: #fff;
-    width: 380px;
-    height: 472px;
-    top: 50%;
-    left: 50% 
+    opacity: 0;
+    top: 200px;
+    left: 252px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #f38181;
+    background-color: #fce38a;
+    z-index: 2;
 }
 
+.team_list_hover .icon_instagram .icon_img{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 15px;
+    left: 10px;
+ }  
 
-/*
-.our_team_section-hover:hover{
-    content: "";
-    position: absolute; 
-    background: #000002;
-    opacity: 0.5;
-    display: none;
-    width: 380px;
-    height: 472px;
+.team_list_hover .icon_facebook .icon_img{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 15px;
+    left: 10px;
 }
 
-.our_team_section_block .our_team_section-hover::before{
-    content: "";
-    position: absolute; 
-    background: #000002;
-    opacity: 0.5;
-    display: none;
-    width: 380px;
-    height: 472px; 
-}
+.team_list_hover .icon_twitter .icon_img{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 15px;
+    left: 10px;
+ }
 
-.catalog-section .catalog-block::before{
-   top: 10px;
-   right: 10px;
-}
+ .team_list_hover .icon_pinterest .icon_img{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 15px;
+    left: 10px;
+ }
 
-.catalog-section .catalog-block:hover::before{
-    display: block;
+
+.team_list_photoblock:hover .icon_facebook{
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    transition: all 0.2s linear;
 } 
-.catalog-section .catalog-block:hover .catalog-option-hover{
-    display: inline-block;
+.team_list_photoblock:hover .icon_twitter{
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    transition: all 0.2s linear;
 }
-*/
+.team_list_photoblock:hover .icon_pinterest{
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    transition: all 0.2s linear;
+} 
+.team_list_photoblock:hover .icon_instagram {
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+
+.team_list_photoblock .icon_facebook:hover{
+    background-color: #95e1d3;
+    border-color: #95e1d3;
+    transition: all 0.2s linear;
+} 
+.team_list_photoblock .icon_twitter:hover{
+    background-color: #95e1d3;
+    border-color: #95e1d3;
+    transition: all 0.2s linear;
+}
+.team_list_photoblock .icon_pinterest:hover{
+    background-color: #95e1d3;
+    border-color: #95e1d3;
+    transition: all 0.2s linear;
+} 
+.team_list_photoblock .icon_instagram:hover{
+    background-color: #95e1d3;
+    border-color: #95e1d3;
+    transition: all 0.2s linear;
+}
+
+
+.team_list_photoblock .icon_facebook{
+    background-color: #95e1d3;
+    border-color: #95e1d3;
+}
+
+.under_img h3{
+    text-align: center;
+    font-family:"Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.under_img p{
+    text-align: center;
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 24px;
+    color: #999999;
+}
+
+.under_img h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*footer*/
+
+.before::before{
+    content: "";
+    background:  #cccccc;
+    width: 1210px;
+    height: 2px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 215px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .line{
+    float: left;
+    display: inline-block;
+    font-family:"Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    color: #333333;
+    padding: 28px;
+}
+
+footer span{
+    color: #f38181;
+    margin-left: 5px;
+}
+
+
+
+.but{
+    float: right;
+    
+}
+.but li{
+    display: inline-block;
+    list-style: none;
+    margin-left: -4px;
+}
+
+.but .but1{
+    width: 230px;
+    height: 40px;
+    text-align: left;
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 24px;
+    background-color: #ffff;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.but .but2{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:"Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight:  bold;
+    background-color:  #95e1d3;
+    color: #ffff;
+    border: 1px solid #95e1d3;
+    padding: 10px;
+}
+
+.but{
+margin-right: 370px;
+}
+.line{
+    margin-left: 180px;
+}
