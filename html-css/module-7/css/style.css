@@ -208,7 +208,6 @@ header{
 
     .br .footer_text1{
       font-family: "Montserrat bold", "Arial", cursive;
-      text-align: center;
       font-size: 40px;
       font-weight: 75px;
       color: #ffffff;
@@ -229,7 +228,6 @@ header{
   }
 
   .br .footer_text2{
-    text-align: center;
     font-family: "Alegreya Sans", "Arial", cursive;
     font-size: 20px;
     font-weight: italic;
@@ -256,12 +254,6 @@ header{
   margin: 0px auto;  
 }
 
-/*
-  .clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}*/
 
 .wrapper{
   position: relative;
@@ -276,9 +268,8 @@ header{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    
+    align-self:flex-end; 
  }
-
 
 .section_form {
   margin-top: 250px;
@@ -342,18 +333,7 @@ header{
   outline: 1px solid red;
 }
 
-/*
-button[type="submit"] {
-  position: absolute;
-  display: block;
-  height: 68px;
-  width: 240px;
-  background-color: #fed136;
-  border: 2px solid #fed136;
-  border-radius: 4px;
-  top: 550px;
-  left: 725px;  
-}*/
+
 
 button[type="submit"] {
   font-family: "Montserrat bold", "Arial", cursive;
@@ -377,23 +357,5 @@ width: 240px;
 background-color: #fed136;
 border: 2px solid #fed136;
 border-radius: 4px;
-align-self:
+
 }
-/*
-button{
-margin-top: 520px;
-max-width: 240px;
-width: 100%;
-margin: 0 auto;
-height: 70px;
-
-display: flex;
-/*flex-flow: column wrap;
-justify-content: space-between;
-}
-
-
-height: 210px;
-display: flex;
-flex-flow: column wrap;
-justify-content: space-between;/*
