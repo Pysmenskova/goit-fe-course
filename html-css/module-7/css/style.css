@@ -72,7 +72,7 @@
 
   * {
     margin: 0;
-    pad: 0;
+    padding: 0;
 }
 
 header{
@@ -208,6 +208,7 @@ header{
 
     .br .footer_text1{
       font-family: "Montserrat bold", "Arial", cursive;
+      text-align: center;
       font-size: 40px;
       font-weight: 75px;
       color: #ffffff;
@@ -228,6 +229,7 @@ header{
   }
 
   .br .footer_text2{
+    text-align: center;
     font-family: "Alegreya Sans", "Arial", cursive;
     font-size: 20px;
     font-weight: italic;
@@ -242,7 +244,9 @@ header{
   }
 
   .br img{
-    float: right;
+   position: absolute;
+   right: 0;
+   bottom: 40px;
   }
 
 
@@ -252,24 +256,32 @@ header{
   margin: 0px auto;  
 }
 
-
+/*
   .clearfix::after{
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 .wrapper{
   position: relative;
+  margin: 0 auto;
 }
 
-.section_form{
- margin: 0 auto;
-}
+.section_form {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    height: 210px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    
+ }
 
-.section_form ul {
-  list-style: none;
-  margin-top: 270px;
+
+.section_form {
+  margin-top: 250px;
 }
 
 .section_form input {
@@ -278,16 +290,16 @@ header{
   height: 50px;
   border: 2px solid #ffffff;
   border-radius: 4px;
-  margin-bottom: 30px;
-  margin-left: 80px;
+
 }
-.section_form textarea{
+
+.section_form textarea {
   background-color: #ffffff;
   width: 450px;
-  height: 222px;
+  height: 210px;
   border: 2px solid #ffffff;
   border-radius: 4px;
-  margin-bottom: 30px;
+  align-self: flex-end;
 }
 
 .section_form textarea::placeholder{
@@ -313,11 +325,6 @@ header{
   outline: 0;
 }
 
-.section_form textarea{
-  position: absolute;
-  left: 870px;
-  top: 270px;
-}
 
 .section_form input:valid{
   outline: 1px solid green;
@@ -335,7 +342,7 @@ header{
   outline: 1px solid red;
 }
 
-
+/*
 button[type="submit"] {
   position: absolute;
   display: block;
@@ -346,21 +353,9 @@ button[type="submit"] {
   border-radius: 4px;
   top: 550px;
   left: 725px;  
-}
+}*/
 
 button[type="submit"] {
-  position: absolute;
-  display: block;
-  height: 68px;
-  width: 240px;
-  background-color: #fed136;
-  border: 2px solid #fed136;
-  border-radius: 4px;
-  top: 550px;
-  left: 725px;  
-}
-
-button{
   font-family: "Montserrat bold", "Arial", cursive;
   text-align: center;
   font-size: 18px;
@@ -369,3 +364,36 @@ button{
   color: #ffffff;
   text-transform: uppercase;
 }
+
+
+
+button{
+position: absolute;
+left: 43%;
+top: 495px;
+display: block;
+height: 68px;
+width: 240px;
+background-color: #fed136;
+border: 2px solid #fed136;
+border-radius: 4px;
+align-self:
+}
+/*
+button{
+margin-top: 520px;
+max-width: 240px;
+width: 100%;
+margin: 0 auto;
+height: 70px;
+
+display: flex;
+/*flex-flow: column wrap;
+justify-content: space-between;
+}
+
+
+height: 210px;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;/*
