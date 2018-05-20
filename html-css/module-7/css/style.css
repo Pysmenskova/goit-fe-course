@@ -76,33 +76,39 @@
 }
 
 header{
-    width: 1200px;
-    margin: 0 auto;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end; 
+  height: 72px;
 }
 
+
+.nav .nav_list{
+list-style: none;
+width: 540px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+
+
 .logo{
-  float: left; 
-  margin-top: 40px;
   font-family:"Kaushan Script", "Arial", cursive;
   font-size: 26px;
   font-weight: regular;
   color: #fed136;
 }
 
-.nav{
-  float: right;
-  margin-top: 54px;
-  }
 
-.nav .nav_list{
-  list-style: none;
-}
-
-.nav .nav_list .nav_list_item{
+ .nav_list_item{
   display: inline-block;
   }
 
-.nav .nav_list .nav_list_item a{
+.nav_list_item a{
   font-family: "Montserrat Regular", "Arial", cursive;
   font-size: 14px;
   font-weight: bold;
@@ -112,17 +118,11 @@ header{
   text-decoration: none;
   }
 
-  .nav .nav_list .nav_list_item a:hover{
+   .nav_list_item a:hover{
     color: #fed136;
     }
 
-    .clearfix::after{
-      content: "";
-      display: table;
-      clear: both;
-  }
-
-    .nav .nav_list .nav_list_item .active{
+   .nav_list_item .active{
       color: #fed136;
     }
 
@@ -151,23 +151,28 @@ header{
 
 
     /*service_section*/
-
-
+    .service_section {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 940px;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-top: 80px;
+      }
+/*
     .service_section{
       display: flex;  
       flex-wrap: wrap;
       width: 1300px;
       margin: 0 auto;
       margin-top: 80px;
-    }
+    }*/
 
     .service_section_list{
-       width: 290px; 
-       margin: 0 auto;
+       width: 274px; 
        text-align: center;
-
     }
-
+  
     .section_icons{
       width: 65px;
       height: 65px;
@@ -249,31 +254,27 @@ header{
 
 
 .wrapper {
+  position: relative;
+  margin: 0px auto;
+  max-width: 940px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px auto;  
+  justify-content: center;
 }
 
 
-.wrapper{
-  position: relative;
-  margin: 0 auto;
-}
 
 .section_form {
     max-width: 940px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 250px;
     height: 210px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    align-self:flex-end; 
+    align-self: flex-end; 
  }
-
-.section_form {
-  margin-top: 250px;
-}
 
 .section_form input {
   background-color: #ffffff;
@@ -348,14 +349,11 @@ button[type="submit"] {
 
 
 button{
-position: absolute;
-left: 43%;
-top: 495px;
+margin-top: 30px;
 display: block;
-height: 68px;
+height: 70px;
 width: 240px;
 background-color: #fed136;
 border: 2px solid #fed136;
 border-radius: 4px;
-
 }
