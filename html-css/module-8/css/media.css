@@ -1,243 +1,186 @@
-@media (max-width: 599px){
-  /*  .site .site_navigation_list:not(:last-child){
-        margin-bottom: 20px;
-    }
-    .site .site_team_list:not(:last-child){
-        margin-bottom: 20px;
-    }*/
-    }
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-@media (min-width: 600px) {
-    .container {
-        width: 600px;
-        max-width: 960px;
-        margin: 0 auto;
-        padding-left: 5px;
-        padding-right: 5px;
-        }
-
-    .section{
+  .section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     position: absolute;
     top: 20px;
-}
+  }
 
-
-
-.masthead{
-    display:flex;
-    justify-content: center; 
-    align-items: center; 
-    width: 600px;
+  .masthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     height: 690px;
     position: relative;
-}
+  }
 
-.logo{
+  .logo {
     margin-top: 20px;
-    font-family:"Montserrat bold", "Arial", cursive;
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 20px;
     font-weight: bold;
     color: #ff4e50;
     text-transform: uppercase;
-}
-.site{
-    list-style: none;  
-}
-.page_nav_container{
-    width: 570px;
+  }
+  .site {
+    list-style: none;
+  }
+  .page_nav_container {
+    width: 100%;
     display: flex;
     flex-direction: row row-reverse;
     justify-content: space-between;
     align-items: center;
-}
-.navigation{
-   
+  }
+  .navigation {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-}
-.site_navigation_list a{
-    font-family:"Montserrat bold", "Arial", cursive;
+		justify-content: space-between;
+		order: 1;
+  }
+  .site_navigation_list a {
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 14px;
     font-weight: bold;
     color: #ff4e50;
     text-decoration: none;
-}
+  }
 
-
-.site_navigation_list a:hover{
+  .site_navigation_list a:hover {
     border: 2px solid #ff4e50;
-    border-radius: 8px; 
+    border-radius: 8px;
     padding: 8px;
-}
+  }
 
-
-.site_text_list{
+  .site_text_list {
     text-align: center;
-}
+  }
 
-.text{
+  .text {
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-}
+  }
 
-.text_1{
+  .text_1 {
     margin-top: 40px;
     text-align: center;
-    font-family:"Montserrat bold", "Arial", cursive;
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-}
+  }
 
-.text_2{
+  .text_2 {
     margin-top: 20px;
     text-align: center;
-    font-family:"Roboto-light", "Arial", cursive;
+    font-family: "Roboto-light", "Arial", cursive;
     font-size: 18px;
     font-weight: regular;
     color: #ffffff;
-    }
+  }
 
-.text_3{
+  .text_3 {
     margin-top: 20px;
     text-align: center;
-    font-family:"Montserrat bold", "Arial", cursive;
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
     width: 225px;
     height: 40px;
     border: 2px solid #ff4e50;
-    border-radius: 20px; 
+    border-radius: 20px;
     background-color: #ff4e50;
-    }
+  }
 
-
-
-.name_text{
+  .name_text {
     text-align: center;
     margin-top: 65px;
     text-align: center;
-    font-family:"Montserrat bold", "Arial", cursive;
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 22px;
     font-weight: bold;
     color: #333333;
-}    
+  }
 
-.list{
+  .list {
     display: flex;
     flex-flow: row wrap;
     max-width: 600px;
     justify-content: space-between;
     margin-top: 35px;
     position: relative;
-    }
-/*
-.team{
-    
-    text-align: center;
-}*/
+  }
 
-.site_team_list{ 
+  .site_team_list {
     width: 220px;
     text-align: center;
     padding-top: 50px;
-    }
+  }
 
-.name{
+  .name {
     margin-top: 15px;
-    font-family:"Montserrat bold", "Arial", cursive;
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 14px;
     font-weight: bold;
-    color: #333333;  
-      }
-      
-.under_name{
+    color: #333333;
+  }
+
+  .under_name {
     margin-top: 15px;
-    font-family:"Roboto-light", "Arial", cursive;
+    font-family: "Roboto-light", "Arial", cursive;
     font-weight: regular;
     font-size: 14px;
-    color: #666666;  
-      }
-    
-      .icons_1{
-        position: absolute;
-        top: 135px;
-        left: 180px;
-        width: 35px;
-        height: 35px;
-        border: 4px solid #ffffff;
-        border-radius: 50%; 
-        background-color: #ff4e50;
-      }
-    
-      .icons_2{
-        position: absolute;
-        top: 390px;
-        left: 180px;
-        width: 35px;
-        height: 35px;
-        border: 5px solid #ffffff;
-        border-radius: 50%; 
-        background-color: #1cd7ad;
-      }
-    
-      .icons_3{
-        position: absolute;
-        top: 645px;
-        left: 180px;
-        width: 35px;
-        height: 35px;
-        border: 5px solid #ffffff;
-        border-radius: 50%; 
-        background-color: #ffa507;
-      }
-    
-      .icons_4{
-        position: absolute;
-        top: 925px;
-        left: 180px;
-        width: 35px;
-        height: 35px;
-        border: 5px solid #ffffff;
-        border-radius: 50%; 
-        background-color: #4e73db;
-      }
-    
-      .icons_1 img,
-      .icons_2 img,
-      .icons_3 img,
-      .icons_4 img{
-          margin-top: 5px;
-      }
+    color: #666666;
+  }
 
-.page{
+  .page {
     padding-top: 30px;
     padding-bottom: 50px;
     text-align: center;
-    }
+  }
 
-.download_button{
-    font-family:"Montserrat bold", "Arial", cursive;
+  .download_button {
+    font-family: "Montserrat bold", "Arial", cursive;
     font-size: 14px;
     font-weight: bold;
     color: #ff4e50;
     width: 190px;
     height: 40px;
     border: 2px solid #ff4e50;
-    border-radius: 20px; 
-    background-color: #ffFFFF;  
-    }
-    
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
 }
 
-@media (min-width: 600px) and (max-width: 1169px){
+@media (min-width: 1200px) {
+	.container {
+    max-width: 1200px;
+	}
+	
+	.list {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-top: 35px;
+    position: relative;
+  }
 
+  .site_team_list {
+    width: 220px;
+    text-align: center;
+    padding-top: 50px;
+  }
 }
