@@ -184,7 +184,7 @@
 .site_team .site_team_list:nth-of-type(1) .icon_wrapper {
     background-color: #ff4e50;
 }
-.site_team .site_team_list:nth-of-type(1) .icon_wrapper {
+.site_team .site_team_list:nth-of-type(4) .icon_wrapper {
     background-color: #4e73db;
 }
   
@@ -204,7 +204,7 @@
     font-size: 14px;
     color: #666666;  
       }
-    
+    /*
       .icons_1{
         position: absolute;
         top: 135px;
@@ -254,7 +254,7 @@
       .icons_3 img,
       .icons_4 img{
           margin-top: 5px;
-      }
+      }*/
 
 .page{
     padding-top: 30px;
