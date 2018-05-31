@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+.container{
+    min-width: 320px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+
+
+.masthead{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 320px;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+}
+
+
+.logo{
+    margin-top: 130px;
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4e50;
+    text-transform: uppercase;
+}
+
+.site{
+    list-style: none;  
+}
+
+.navigation{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+.site_navigation_list a{
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff4e50;
+    text-decoration: none;
+}
+
+
+.site_navigation_list a:hover{
+    border: 2px solid #ff4e50;
+    border-radius: 8px; 
+    padding: 8px;
+}
+
+
+
+.site_text_list{
+    text-align: center;
+}
+
+.text{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text_1{
+    margin-top: 40px;
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.text_2{
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Roboto-light", "Arial", cursive;
+    font-size: 18px;
+    font-weight: regular;
+    color: #ffffff;
+    }
+
+.text_3{
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 225px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; 
+    background-color: #ff4e50;
+    }
+
+
+
+
+
+.name_text{
+    text-align: center;
+    margin-top: 65px;
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}    
+
+.list{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+.site_team_list{
+ text-align: center;
+ padding-top: 50px;
+    }
+
+.name{
+    margin-top: 15px;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;  
+      }
+      
+.under_name{
+    margin-top: 15px;
+    font-family:"Roboto-light", "Arial", cursive;
+    font-weight: regular;
+    font-size: 14px;
+    color: #666666;  
+      }
+    
+      .icons_1{
+        position: absolute;
+        top: 135px;
+        left: 180px;
+        width: 35px;
+        height: 35px;
+        border: 4px solid #ffffff;
+        border-radius: 50%; 
+        background-color: #ff4e50;
+      }
+    
+      .icons_2{
+        position: absolute;
+        top: 390px;
+        left: 180px;
+        width: 35px;
+        height: 35px;
+        border: 5px solid #ffffff;
+        border-radius: 50%; 
+        background-color: #1cd7ad;
+      }
+    
+      .icons_3{
+        position: absolute;
+        top: 645px;
+        left: 180px;
+        width: 35px;
+        height: 35px;
+        border: 5px solid #ffffff;
+        border-radius: 50%; 
+        background-color: #ffa507;
+      }
+    
+      .icons_4{
+        position: absolute;
+        top: 925px;
+        left: 180px;
+        width: 35px;
+        height: 35px;
+        border: 5px solid #ffffff;
+        border-radius: 50%; 
+        background-color: #4e73db;
+      }
+    
+      .icons_1 img,
+      .icons_2 img,
+      .icons_3 img,
+      .icons_4 img{
+          margin-top: 5px;
+      }
+
+.page{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+
+.download_button{
+        text-align: center;
+        font-family:"Montserrat bold", "Arial", cursive;
+        font-size: 14px;
+        font-weight: bold;
+        color: #ff4e50;
+        width: 190px;
+        height: 40px;
+        border: 2px solid #ff4e50;
+        border-radius: 20px; 
+        background-color: #ffFFFF;  
+      }
+    
