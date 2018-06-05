@@ -1,0 +1,3 @@
+:root{
+    --grid-col-width: calc(100% / 12);
+}

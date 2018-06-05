@@ -1,0 +1,159 @@
+@media (max-width: 767px) {
+  .partner [class*="col-"] {
+    margin-top: 30px;
+  } 
+}
+
+@media (min-width: 768px) {
+  .d2{
+    margin-top: 20px;
+  }
+
+
+  .d3{ 
+    margin-top: 220px; 
+    font-size: 52px;  
+}
+
+.d4{
+    margin-top: 30px;
+}
+/*
+.finder{
+    margin-top: 30px;
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 225px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px; 
+    background-color: #ff4e50;
+}*/
+
+/**TEAM*/
+.d6 {
+    text-align: center;
+    font-family:"Montserrat bold", "Arial", cursive;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+  .d6{
+    text-align: center;
+  }
+    /*.section{
+      max-width: 660px;
+    }
+  
+    .masthead {
+      height: 690px;
+    }
+  
+    .logo {
+      margin-top: 20px;
+    }
+   
+    .page_nav_container {
+      width: 100%;
+      display: flex;
+      flex-direction: row row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navigation {
+          order: 1;
+    }
+    .site_navigation_list a {
+      font-size: 16px;
+      color: #ffffff;
+    }
+  
+  
+    .site_text_list {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .text {
+      margin-top: 150px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .text_1 {
+      font-size: 52px;
+    }
+  
+    .text_2 {
+      font-size: 24px;
+    }
+  
+  
+    .list {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 100%;
+      justify-content: space-between;
+      margin-top: 35px;
+      position: relative;
+    }
+  
+    .team{
+      max-width: 500px;
+    }
+  
+   
+    .page {
+      padding-top: 30px;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+  
+    .download_button {
+      font-family: "Montserrat bold", "Arial", cursive;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ff4e50;
+      width: 190px;
+      height: 40px;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background-color: #ffffff;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+      .container {
+      max-width: 940px;
+      }
+  /*    
+      .list {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 1200px;
+      justify-content: space-between;
+      margin-top: 35px;
+      position: relative;
+    }
+  
+    .site_team_list {
+      width: 220px;
+      text-align: center;
+      padding-top: 50px;
+    }
+  
+  .text {
+      margin-top: 200px;
+      padding-left: 180px;
+      padding-right: 180px;
+    }
+  }
+  
+  
+  
